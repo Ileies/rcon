@@ -1,7 +1,7 @@
 <?php
-/* ^-^  15.09.2020  PHP 7.0 - 7.4
- * Author: admin@ileies.de | Ileies LLC
- * example: rcon("example.com", "password123", "kill Notch");
+/* 2020-2023  Support for PHP 7.0 - 8.2
+ * Author: admin@ileies.de
+ * example: rcon("example.com", "password123", "say hi");
 */
 function rcon($host, $password, $command) {
 	// start a new session where the host is pinged
